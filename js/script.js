@@ -3,7 +3,7 @@ function jsonOutput() {
     let request = new XMLHttpRequest();
   
     // JSONファイルが置いてあるパスを記述
-    request.open('GET', './HTML/json/output.json');
+    request.open('GET', 'json/output.json');
     request.send();
   
     // JSON読み込み時の処理
@@ -14,7 +14,7 @@ function jsonOutput() {
         let json = JSON.parse(request.responseText);
   
         // 生成したHTMLを入れておく変数
-        let html = '';
+        let html = 'index.html';
         // 生成したモーダル用のHTMLを入れておく変数
         let modal = '';
   
