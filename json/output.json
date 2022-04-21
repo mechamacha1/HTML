@@ -1,0 +1,16 @@
+[
+    {
+      "display": "link",
+      "url": "./HTML/index.html",
+      "image": "./HTML/png/01.png",
+      "title": "パスが通ってるといいな",
+      "text": ""
+    },
+     {
+      "display": "popup",
+      "url": "./HTML/index.html",
+      "image": "./HTML/png/02.png",
+      "title": "カービイ",
+      "text": "テストテキスト"
+    }
+  ]
